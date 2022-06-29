@@ -1,0 +1,46 @@
+Exercícios sobre Métodos HTTP
+
+1) O que são métodos HTTP?
+
+ O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. Requisições utilizando o método GET devem retornar apenas dados. O método HEAD solicita uma resposta de forma idêntica ao método GET , porém sem conter o corpo da resposta.
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+
+ Os métods mais utilizados são GET, POST, PUT, DELETE, TRACE, OPTIONS, PATCH e CONNECT
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença entre eles?
+
+ O GET é o método mais comum de todos e método POST que é utilizado quando queremos criar um recurso. A grande diferença entre os métodos GET e POST provavelmente é a visibilidade. Uma requisição GET é enviada como string anexada a URL, enquanto que a requisição POST é encapsulada junto ao corpo da requisição HTTP e não pode ser vista.
+
+4) O que são requisições HTTP? Quais os tipos?
+
+ As requisições HTTP são mensagens enviadas pelo cliente para iniciar uma ação no servidor.Suas linhas iniciais contêm três elementos: Um método HTTP, um verbo (como GET , PUT ou POST ) ou um nome (como HEAD ou OPTIONS ), que descrevem a ação a ser executada.
+
+5) Como funciona uma requisição?
+
+ O texto da requisição HTTP tem, basicamente, três partes: request line, headers e body. Esse texto é lido linha a linha, sendo que cada linha é separada por CR+LF (carriage return + line feed). (line feed = newline = ‘\n’).
+
+6) O que é o método GET?
+
+ O método pode ser gerado por um formulário web e também por um link em sua página HTML. Ele possui limite de capacidade e a URL só aceita strings, se você precisar passar arquivos deverá utilizar o POST. O método GET utiliza a própria URL para enviar dados ao servidor, quando enviamos um formulário pelo método GET, o navegador pega as informações do formulário e coloca junto com a URI de onde o formulário vai ser enviado e envia, separando o endereço da URI dos dados do formulário por um “?” 
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, utilizado em sites de compras eletrônicas?
+
+ SSL significa Secure Sockets Layer, um tipo de segurança digital que permite a comunicação criptografada entre um domínio de site e um navegador. Atualmente a tecnologia se encontra depreciada e está sendo completamente substituída pelo TLS. TLS é uma sigla que representa Transport Layer Security e certifica a proteção de dados de maneira semelhante ao SSL. Como o SSL não está mais de fato em uso, esse é o termo correto que deveria ser utilizado. O HTTPS é uma extensão segura do HTTP. Os sites que configurarem um certificado SSL/TLS podem utilizar o protocolo HTTPS para estabelecer uma comunicação segura com o servidor.
+
+8) Quais os principais métodos de uma requisição REST?
+
+ Os mais importantes para criar uma API RESTful são GET , POST , PUT , e DELETE . Outros métodos estão disponíveis, como o HEAD e OPTIONS , mas a utilização destes é mais rara
+
+9) Qual a diferença entre IPv4 e IPv6?
+
+ O Protocolo de Internet versão 4 possui endereços no padrão 32 bits e sustenta cerca de 4 bilhões de combinações de endereços IP em todo o mundo. Já o IPv6 é a versão 6 do Protocolo de Internet, com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços.
+
+10) HTTP é a sigla para Hypertext Transfer Protocol, que significa Protocolo de Transferência de Hipertexto. Ele é o mais básico e usado para navegação em sites da internet.
+
+ O protocolo HTTP funciona também como uma conexão entre o cliente e o servidor. Neste caso, o cliente é o navegador que você usa para acessar a internet. E o servidor é aquele em que um site ou domínio está hospedado na rede.
+ TCP/IP é o acrônimo de dois protocolos combinados: o TCP (Transmission Control Protocol, que significa Protocolo de Controle de Transmissão) e IP (Internet Protocol, que significa Protocolo de Internet).Dentre todos os protocolos de rede, juntos, eles formam a base de envio e recebimento de dados por toda a internet. 
+ O protocolo de datagramas do usuário (UDP) opera sobre o protocolo da Internet (IP) para transmitir datagramas em uma rede. O UDP não exige que a origem e o destino estabeleçam um handshake triplo antes que a transmissão ocorra. Além disso, não há necessidade de uma conexão de ponta a ponta.
+ SMTP é a sigla para Simple Mail Transfer Protocol, que significa Protocolo de Transferência de Correio Simples. Diferente do POP3, o protocolo SMTP é voltado para o envio de mensagens eletrônicas (emails). O protocolo SMTP é eficiente por sua simplicidade, mas também é um pouco limitado. Ele se baseia somente em texto. Ou seja, para envio de arquivos, pastas ou mídias, é preciso extensões que convertem esses arquivos no formato de texto.
+ FTP é a sigla para File Transfer Protocol, que significa Protocolo de Transferência de Arquivos. Ele surgiu antes mesmo do padrão TCP/IP, que é a base das conexões de internet. E é o modo mais simples de transferir dados entre duas máquinas pela rede.  
+ 
